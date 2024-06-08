@@ -16,6 +16,8 @@ VALUES
 ('Bateria de Armazenamento', 300.00, 'Bateria para armazenamento de energia solar'),
 ('Carregador Veicular Solar', 200.00, 'Carregador veicular para energia solar');
 
+SELECT * FROM products;
+
 UPDATE products
 SET price = 550.00, description = 'Painel solar de alta eficiência atualizado'
 WHERE name = 'Painel Solar';
